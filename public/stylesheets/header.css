@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'MyriadPro';
+  src: url("../../fonts/MyriadProRegular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+.wrapper {
+  margin: 0;
+  padding: 0;
+  font-family: MyriadPro;
+  overflow-x: hidden !important;
+  width: 100%; }
+
+header {
+  background-image: url("../../images/backgroundtop.jpg");
+  background-size: 100% 100%;
+  height: 485px;
+  position: relative; }
+
+.number {
+  font-size: 48px;
+  line-height: 24px;
+  color: #fefefe;
+  font-family: "MyriadPro"; }
+
+.code {
+  font-size: 26px;
+  line-height: 24px;
+  color: #fefefe;
+  font-family: "MyriadPro"; }
+
+.our-number {
+  position: absolute;
+  left: 75%;
+  top: 198px;
+  width: 100%; }
+  .our-number p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #fefefe;
+    font-family: "MyriadPro";
+    margin: 4px; }
+
+@media only screen and (max-width: 1200px) and (min-width: 1024px) {
+  .number {
+    font-size: 40px; } }
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  header {
+    background-image: url("../../images/backgroundtop_1024.jpg"); }
+
+  .number {
+    font-size: 30px; }
+
+  .code {
+    font-size: 22px; } }
+@media only screen and (max-width: 767px) and (min-width: 376px) {
+  header {
+    height: 245px;
+    background-image: url("../../images/backgroundtop.jpg"); }
+
+  .our-number {
+    left: 50%;
+    top: 45%; }
+
+  .number {
+    font-size: 20px; }
+
+  .code {
+    font-size: 18px; }
+
+  .our-number p {
+    font-size: 15px; } }
+@media only screen and (max-width: 375px) and (min-width: 320px) {
+  header {
+    height: 245px;
+    background-image: url("../../images/backgroundtop.jpg"); }
+
+  .our-number {
+    left: 53%;
+    top: 45%; }
+
+  .number {
+    font-size: 20px; }
+
+  .code {
+    font-size: 18px; }
+
+  .our-number p {
+    font-size: 15px; } }
+@media only screen and (max-width: 320px) {
+  header {
+    height: 245px;
+    background-image: url("../../images/backgroundtop.jpg"); }
+
+  .our-number {
+    left: 53%;
+    top: 45%; }
+
+  .number {
+    font-size: 20px; }
+
+  .code {
+    font-size: 18px; }
+
+  .our-number p {
+    font-size: 15px; } }
+
+/*# sourceMappingURL=header.css.map */

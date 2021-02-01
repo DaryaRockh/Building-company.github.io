@@ -1,0 +1,34 @@
+.hamburger {
+  display: none; }
+
+.top-menu {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+  .top-menu ul {
+    background-color: #15a1cf;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    width: 100%; }
+
+.mainList {
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .mainList:hover {
+    background-color: #1abede; }
+  .mainList a {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "MyriadPro";
+    text-decoration: none; }
+
+/*# sourceMappingURL=menu.css.map */

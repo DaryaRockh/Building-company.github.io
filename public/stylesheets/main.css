@@ -1,0 +1,434 @@
+@font-face {
+  font-family: 'MyriadPro';
+  src: url("../../fonts/MyriadProRegular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+.wrapper {
+  margin: 0;
+  padding: 0;
+  font-family: MyriadPro;
+  overflow-x: hidden !important;
+  width: 100%; }
+
+header {
+  background-image: url("../../images/backgroundtop.jpg");
+  background-size: 100% 100%;
+  height: 485px;
+  position: relative; }
+
+.number {
+  font-size: 48px;
+  line-height: 24px;
+  color: #fefefe;
+  font-family: "MyriadPro"; }
+
+.code {
+  font-size: 26px;
+  line-height: 24px;
+  color: #fefefe;
+  font-family: "MyriadPro"; }
+
+.our-number {
+  position: absolute;
+  left: 75%;
+  top: 198px;
+  width: 100%; }
+  .our-number p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #fefefe;
+    font-family: "MyriadPro";
+    margin: 4px; }
+
+@media only screen and (max-width: 1200px) and (min-width: 1024px) {
+  .number {
+    font-size: 40px; } }
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  header {
+    background-image: url("../../images/backgroundtop_1024.jpg"); }
+
+  .number {
+    font-size: 30px; }
+
+  .code {
+    font-size: 22px; } }
+@media only screen and (max-width: 767px) and (min-width: 376px) {
+  header {
+    height: 245px;
+    background-image: url("../../images/backgroundtop.jpg"); }
+
+  .our-number {
+    left: 50%;
+    top: 45%; }
+
+  .number {
+    font-size: 20px; }
+
+  .code {
+    font-size: 18px; }
+
+  .our-number p {
+    font-size: 15px; } }
+@media only screen and (max-width: 375px) and (min-width: 320px) {
+  header {
+    height: 245px;
+    background-image: url("../../images/backgroundtop.jpg"); }
+
+  .our-number {
+    left: 53%;
+    top: 45%; }
+
+  .number {
+    font-size: 20px; }
+
+  .code {
+    font-size: 18px; }
+
+  .our-number p {
+    font-size: 15px; } }
+@media only screen and (max-width: 320px) {
+  header {
+    height: 245px;
+    background-image: url("../../images/backgroundtop.jpg"); }
+
+  .our-number {
+    left: 53%;
+    top: 45%; }
+
+  .number {
+    font-size: 20px; }
+
+  .code {
+    font-size: 18px; }
+
+  .our-number p {
+    font-size: 15px; } }
+.hamburger {
+  display: none; }
+
+.top-menu {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+  .top-menu ul {
+    background-color: #15a1cf;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    width: 100%; }
+
+.mainList {
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .mainList:hover {
+    background-color: #1abede; }
+  .mainList a {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "MyriadPro";
+    text-decoration: none; }
+
+.activities {
+  /*   height: 175px; */
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  flex-wrap: wrap; }
+  .activities img {
+    width: 100px;
+    height: 60px;
+    margin: 5px; }
+  .activities .servises-text {
+    font-size: 11px;
+    line-height: 21px;
+    color: #868787;
+    font-family: "Tahoma";
+    margin: 4px; }
+  .activities .title {
+    font-size: 17px;
+    line-height: 24px;
+    color: #4e4e4e;
+    font-family: "MyriadPro";
+    margin: 4px; }
+  .activities a {
+    font-size: 10px;
+    line-height: 24px;
+    color: #03a9d7;
+    font-family: "Tahoma";
+    margin: 4px; }
+
+.projecting, .production, .mounting {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center; }
+
+.particular-Services-div {
+  width: 180px;
+  text-align: justify;
+  /*   display: none; */ }
+
+.particular-Services {
+  white-space: normal;
+  font-size: 11px;
+  line-height: 21px;
+  color: #868787;
+  font-family: "Tahoma";
+  margin: 4px; }
+
+.showText {
+  display: block;
+  width: 180px;
+  text-align: justify; }
+
+@media (max-width: 930px) {
+  .activities {
+    justify-content: space-around; } }
+h3 {
+  font-size: 23px;
+  line-height: 24px;
+  color: #008fbf;
+  font-family: "MyriadPro";
+  margin-bottom: 9px; }
+
+h2 {
+  font-size: 19px;
+  line-height: 24px;
+  color: #008fbf;
+  font-family: "MyriadPro"; }
+
+.servises-list {
+  list-style: none; }
+
+.servises-list li:before {
+  content: "-";
+  position: relative;
+  left: -5px;
+  color: #008fbf; }
+
+.news-block, .news-block-more {
+  display: block;
+  margin-bottom: 0; }
+  .news-block a, .news-block-more a {
+    font-size: 12px;
+    line-height: 16px;
+    color: #008fbf;
+    font-family: "MyriadPro";
+    word-wrap: break-word; }
+  .news-block p, .news-block-more p {
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "MyriadPro";
+    text-decoration: underline;
+    text-decoration-color: #cacaca;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+
+.news-block-more {
+  margin-bottom: 18px;
+  display: none; }
+
+.watch-all {
+  font-size: 13px;
+  line-height: 24px;
+  color: #015967;
+  font-family: "MyriadPro";
+  margin-bottom: 30px; }
+
+.online-order {
+  font-size: 23px;
+  line-height: 24px;
+  color: #1f6f7c;
+  font-family: "Myriad Pro";
+  margin-bottom: 16px;
+  margin-top: 20px; }
+
+.online-order-text {
+  font-size: 13px;
+  line-height: 16px;
+  color: #04a7c0;
+  font-family: "MyriadPro"; }
+
+.online-order-button {
+  width: 233px;
+  height: 41px;
+  border-radius: 10px;
+  background-image: linear-gradient(0deg, #0088bb 0%, #04b4e0 100%);
+  display: flex;
+  align-items: center; }
+  .online-order-button .left-arrow {
+    height: 10px;
+    width: 6px;
+    margin-left: 7%; }
+  .online-order-button .right-arrow {
+    height: 16px;
+    width: 11px;
+    margin-right: 4%; }
+  .online-order-button .stick {
+    width: 1px;
+    height: 26px;
+    background-color: #0083b0;
+    margin-right: 7%; }
+  .online-order-button .order-title {
+    font-size: 20px;
+    line-height: 16px;
+    color: #ffffff;
+    font-family: "MyriadPro";
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+    padding-top: 2%; }
+  .online-order-button .order-text {
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffffff;
+    font-family: "MyriadPro";
+    margin: 0;
+    text-align: left; }
+
+.aboutUs {
+  border-bottom: 2px dashed #686868;
+  border-top: 2px dashed #686868;
+  margin-bottom: 15px; }
+  .aboutUs p {
+    font-size: 13px;
+    line-height: 24px;
+    color: #797979;
+    font-family: "MyriadPro";
+    margin-top: 16px;
+    margin-bottom: 14px; }
+
+.offered-servises {
+  margin-bottom: 0; }
+
+.servises {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 2px dashed #686868; }
+  .servises a {
+    font-size: 13px;
+    line-height: 22px;
+    color: #11adc4;
+    font-family: "MyriadPro"; }
+
+.info-page {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.company-info {
+  width: 64%; }
+
+.news {
+  margin-right: 5%;
+  width: 30%; }
+
+.news-title {
+  margin-bottom: 28px; }
+
+@media only screen and (max-width: 1200px) and (min-width: 1024px) {
+  .servises {
+    justify-content: space-between; }
+    .servises ul {
+      margin: 0;
+      padding: 0; } }
+@media only screen and (max-width: 768px) and (min-width: 0px) {
+  .servises {
+    justify-content: space-between; }
+    .servises ul {
+      margin: 0;
+      padding: 0; }
+
+  .info-page {
+    display: flex;
+    flex-direction: column; }
+    .info-page .news, .info-page .company-info {
+      width: 101%; } }
+.projects {
+  margin: 5% 10% 5% 10%; }
+
+.carousel__item {
+  margin: 20px; }
+  .carousel__item img {
+    width: 200px;
+    height: 100px; }
+
+.projects-text {
+  font-size: 13px;
+  line-height: 24px;
+  color: #797979;
+  font-family: "MyriadPro";
+  margin-top: 16px;
+  margin-bottom: 14px; }
+
+footer {
+  border-top: 1px dashed;
+  border-color: #d1d1d1;
+  margin-left: 10%;
+  margin-right: 10%; }
+  footer section {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap; }
+  footer ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap; }
+  footer li:first-child {
+    margin: 0; }
+  footer li {
+    margin-left: 5%; }
+  footer a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 24px;
+    color: #00a7c0;
+    font-family: "MyriadPro"; }
+
+.address p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #959898;
+  font-family: "Tahoma"; }
+.address a {
+  font-size: 12px;
+  line-height: 18px;
+  color: #00a7c0;
+  font-family: "Tahoma";
+  text-decoration: underline; }
+
+.working-hours, .site {
+  font-size: 12px;
+  line-height: 18px;
+  color: #959898;
+  font-family: "Tahoma"; }
+
+.author-rights a, .author-rights p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #959898;
+  font-family: "Tahoma"; }
+.author-rights a {
+  text-decoration: underline; }
+
+.author-rights-text {
+  font-weight: bold; }
+
+.phone {
+  font-size: 18px;
+  line-height: 24px;
+  color: black;
+  font-family: "Tahoma"; }
+
+/*# sourceMappingURL=main.css.map */
